@@ -496,9 +496,10 @@ hr { border-top: 1px solid #111010; }
 	text-transform: none;
 }
 .tm-social-icon {
-	color: #B1B1B1;
+	color: #4a76a8;
 	font-size: 18px;
 	padding: 0 10px;
+  font-weight: 1000;
 }
 .tm-social-icon:hover {	color: #E8BA0F; }
 .tm-testimonials-box {

@@ -615,7 +615,8 @@ hr { border-top: 1px solid #111010; }
 .contact-image { 
 	float: left; 
 	widthh: 100%;
-	max-width: 494px;
+	max-width: -webkit-fill-available;
+	padding: 50px;
 }
 .contact-text {
 	float: left;
@@ -706,8 +707,9 @@ hr { border-top: 1px solid #111010; }
 		line-height: 1.3;
 	}
 	.tm-contact-box-1 {	padding: 30px; }
-	.contact-image { max-width: 450px; }
+	.contact-image { max-width: -webkit-fill-available; padding: 50px; }
 	.contact-text {	max-width: 400px; }
+
 	.flexslider.flexslider-about .slides img { width: 450px;	}	
 }
 

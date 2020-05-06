@@ -504,9 +504,10 @@ hr { border-top: 1px solid #111010; }
 .tm-social-icon:hover {	color: #E8BA0F; }
 .tm-testimonials-box {
 	width: 272px;
-	height: 530px;
+	height: auto;
 	background-color: #E8BA0F;
 	float: left;
+	position: relative;
 }
 .tm-testimonials-title {
 	background-color: rgb(96, 104, 116);
@@ -517,7 +518,7 @@ hr { border-top: 1px solid #111010; }
 	font-weight: 300;
 }
 .tm-testimonials-content {
-	padding: 30px;
+	padding: 0;
 	text-align: center;
 	font-style: italic;
 }

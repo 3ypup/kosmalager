@@ -504,7 +504,7 @@ hr { border-top: 1px solid #111010; }
 .tm-social-icon:hover {	color: #E8BA0F; }
 .tm-testimonials-box {
 	width: 272px;
-	height: auto;
+	height: -webkit-fill-available;
 	background-color: #E8BA0F;
 	float: left;
 	position: relative;

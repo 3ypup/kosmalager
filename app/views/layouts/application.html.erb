@@ -64,7 +64,7 @@ http://www.templatemo.com/tm-475-holiday
         <div class="col-lg-2 col-md-2 col-sm-2 tm-site-name-container">
           <a href="#" class="tm-site-name">Косма</a>  
         </div>
-        <div class="col-lg-8 col-md-8 col-sm-8">
+        <div class="col-lg-10 col-md-10 col-sm-10">
           <div class="mobile-menu-icon">
             <i class="fa fa-bars"></i>
           </div>
@@ -78,14 +78,28 @@ http://www.templatemo.com/tm-475-holiday
           </nav>    
         </div>        
       </div>
+
+
     </div>      
   </div>
 
     <%= yield %>
 
+    
 
-      <footer class="tm-black-bg">
+   
+   
+
+
+  <footer class="tm-black-bg">
     <div class="container">
+
+         <div class="row">
+              <div class="hidden-lg col-sm-12 col-md-12 col-sx-12">
+                <%= render file: "pages/sidemenu.html.erb" %>
+             </div>
+          </div>
+
       <div class="row">
         <p class="tm-copyright-text">Copyright &copy; 2084 Your Company Name</p>
       </div>
@@ -99,7 +113,7 @@ http://www.templatemo.com/tm-475-holiday
   <script type="text/javascript" src="js/templatemo-script.js"></script>          <!-- Templatemo Script -->
   <!--<script>
     /* Google map
-        ------------------------------------------------*/
+
         var map = '';
         var center;
 
